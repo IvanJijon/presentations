@@ -1,6 +1,8 @@
 \documentclass[spanish]{beamer}
 \usepackage{babel}
 \usepackage{marvosym} % \MVRIGHTarrow
+\usepackage{color, colortbl}
+\usepackage{ulem}
 % Theme choice:
 \usetheme{Madrid}
 \usecolortheme{} % beaver, seahorse
@@ -32,13 +34,14 @@
 \section{Definiciones}
     \subsection{Tecnología}
     \subsection{Desobediencia}
-\section{¿Qué es \bf{Desobediencia Tecnológica}?}
+\section{¿Qué es \textbf{Desobediencia Tecnológica}?}
     \subsection{Estudio de caso: Cuba durante el Período Especial}
-    \subsection{¿Qué \bf{dificultades} pretende \bf{resolver}?}
-    \subsection{¿Cuál es su \bf{propuesta}?}
+    \subsection{¿Qué \textbf{dificultades} se tuvo que vencer?}
+    \subsection{¿Qué actitud ayudó a \textbf{superarlas}?}
 \section{En el mundo del Software}
-    \subsection{¿Cuáles son las dificultades presentes en el \bf{Software Privativo}?}
-    \subsection{Similitudes entre \bf{Desobediencia Tecnológica} y \bf{Software Libre}}
+    \subsection{¿Qué dificultades presenta el \textbf{Software Privativo}?}
+    \subsection{Breve recordatorio de qué es el \textbf{Software Libre}}
+    \subsection{¿Cómo el \textbf{Software Libre} supera esas dificultades?}
 \section{Bibliografía y enlaces de interés}
 
 
@@ -68,11 +71,11 @@
     \end{quote}
 \end{frame}
 
-\begin{frame}{¿Qué es \bf{Desobediencia Tecnológica}?}
+\begin{frame}{¿Qué es \textbf{Desobediencia Tecnológica}?}
+    El término "Desobediencia Tecnológica" se publica por primera vez por Ernesto Oroza, artista y diseñador cubano en 2009.
     \begin{block}{Desobediencia Tecnológica}
         Un conjunto de acciones creativas producto del cuestionamiento de los objetos y lógicas industriales.    
     \end{block}
-    El término "Desobediencia Tecnológica" se publica por primera vez por Ernesto Oroza, artista y diseñador cubano en 2009.
     \vspace{0.3cm}
     
     \centering
@@ -82,7 +85,7 @@
         
 \end{frame}
 
-\begin{frame}{\bf{Desobediencia Tecnológica}: Contexto}   
+\begin{frame}{\textbf{Desobediencia Tecnológica}: Contexto}   
     \begin{itemize}        
         \item 1991: caída de la Unión Soviética, economía cubana en implosión.
         \item Se intensifican las necesidades.
@@ -93,21 +96,20 @@
     \end{center}
 \end{frame}
 
-\begin{frame}{\bf{Desobediencia Tecnológica}: Limitaciones}      
-    Dentro de las limitaciones que encontraron, algunas impuestas por el fabricante, están:
+\begin{frame}{\textbf{Desobediencia Tecnológica}: Limitaciones}      
+    Dentro de las limitaciones, algunas impuestas por el fabricante, están:
     
     \begin{itemize}
-        \item el ciclo de vida de los objetos 
-        \item el objeto industrial cerrado, hermético
-        \item el diseño no incluye la posibilidad de reparar o de ser intervenido por el usuario
-        \item la falta de un manual técnico, además del manual de uso
-        \item la complejidad técnica        
+        \item el \textbf{ciclo de vida} de los objetos 
+        \item el objeto industrial \textbf{cerrado, hermético}
+        \item el diseño no incluye la posibilidad de \textbf{reparar} o de ser \textbf{intervenido} por el usuario
+        \item la falta de un \textbf{manual} técnico, además del manual de uso
+        \item la \textbf{complejidad} técnica       
     \end{itemize}    
 \end{frame}
 
-\begin{frame}{\bf{Desobediencia Tecnológica}: Comportamiento}        
-    
-    El ingenio se posiciona por encima del aparato.
+\begin{frame}{\textbf{Desobediencia Tecnológica}: Comportamiento}        
+    El \textbf{ingenio} se posiciona por encima del aparato.
     \vspace{0.3cm}
     \begin{columns}
         \column{0.25\linewidth}
@@ -122,14 +124,104 @@
     \end{columns}
     \vspace{0.3cm}
     Esto permite saltar las barreras éticas, económicas, legales y estéticas impuestas por los fabricantes.
-    Se logra una \emph{liberación moral}.
+    Se logra una \uuline{liberación moral}.
 \end{frame}
 
-\begin{frame}{\bf{Desobediencia Tecnológica}: Objetos de la necesidad}
+\begin{frame}{\textbf{Desobediencia Tecnológica}: Objetos de la necesidad}
+    Ejemplos de objetos de la necesidad:
     \begin{center}            
-        \includegraphics[height=3cm]{img/inventos/rikimbili.jpg}
-        \includegraphics[height=3cm]{img/inventos/antena_bandejas.jpg}
+        \includegraphics[height=4cm]{img/inventos/rikimbili.jpg}
+        \includegraphics[height=4cm]{img/inventos/antena_bandejas.jpg}
+        \includegraphics[height=3cm]{img/inventos/motor.jpg}        
     \end{center}
+\end{frame}
+
+\begin{frame}{Dificultades del Software Privativo}
+    \centering
+    Comparemos el mundo análogo con el mundo del software:
+    \vspace{0.6cm}
+
+    \resizebox{11cm}{!}
+    {
+    \begin{tabular}{|l|l|}
+        \hline        
+        \rowcolor{lightgray}\textbf{Tecnología Privativa} & \textbf{Software Privativo} \\ 
+        \hline
+        \hline
+        Corto ciclo de vida de los objetos & Viejas versiones obsoletas \\ 
+        \hline
+        Objeto hermético & El código es inaccesible \\
+        \hline
+        No se puede reparar / intervenir & El código es inaccesible \\
+        \hline
+        No hay un manual técnico & No hay documentación técnica \\
+        \hline
+        Complejidad del aparato & Complejidad del software \\
+        \hline
+        Funcionalidad limitada & Necesidades no satisfechas \\
+        \hline
+    \end{tabular}
+    }
+    
+    \vspace{0.6cm}
+
+    ¿Qué respuesta ante estas dificultades? \MVRightArrow{} \textbf{Desobediencia}
+    
+    ¿Cómo? Gracias al \textbf{Software Libre}.
+\end{frame}
+
+\begin{frame}{Software Libre ("libre" no significa "gratuito")}
+    \begin{alertblock}{El Software Libre...}        
+        ... no vulnera, rompe, daña, piratea, Software Privativo.        
+    \end{alertblock}
+    \begin{block}{4 libertades esenciales}
+        \begin{itemize}
+            \item Libertad 0 - \textbf{Ejecutar} el programa con cualquier propósito.
+            \item Libertad 1 - \textbf{Estudiar} cómo funciona el programa, y \textbf{cambiarlo} para que haga lo que se desee.
+            \item Libertad 2 - \textbf{Redistribuir} copias para ayudar a otros.
+            \item Libertad 3 - \textbf{Distribuir} copias de sus versiones \textbf{modificadas} a terceros.
+        \end{itemize}
+        
+    \end{block}
+
+    \begin{alertblock}{También es un movimiento y una comunidad}        
+        No solo es software, es también un \textbf{movimiento} y una \textbf{comunidad}: usuarios, desarrolladores, empresas, diseñadores, pensadores, comunicadores, sociólogos, juristas, profesores, voluntarios, ...
+    \end{alertblock}
+\end{frame}
+
+
+\begin{frame}{¿Cómo el Software Libre supera esas dificultades?}
+    
+    
+    
+    \centering
+    \resizebox{12cm}{!}
+    {
+    \begin{tabular}{|l|l|}
+        \hline        
+        \rowcolor{lightgray}\textbf{Software Privativo} & \textbf{Software Libre}\\ 
+        \hline
+        \hline
+        Viejas versiones obsoletas & Mantenimiento: seguridad, funcionalidad \\ 
+        \hline
+        El código es inaccesible & Se puede estudiar, modificar, distribuir libremente \\
+        \hline
+        No hay documentación técnica & Acceso al código y varios formatos de documentación \\
+        \hline
+        Complejidad del software & Se puede auditar \MVRightArrow{} mejorar, simplificar, enseñar \\
+        \hline
+        Necesidades no satisfechas & Se puede adaptar, complementar \\
+        \hline
+    \end{tabular}
+    }
+
+    \includegraphics[width=2cm]{img/GNU_and_Tux.jpg}
+    \includegraphics[width=2cm]{img/latex.jpg}
+    \includegraphics[width=2cm]{img/libreoffice.png}
+    \includegraphics[width=3cm]{img/coyim.jpeg}
+    \includegraphics[width=1cm]{img/wahay.jpg}
+    
+    
 \end{frame}
 
 \begin{frame}{Bibliografía y enlaces de interés}
